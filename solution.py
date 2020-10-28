@@ -1,6 +1,13 @@
 
 
 def divide_sequence(seq, sets):
+    '''
+    :seq: takes list or set as declaration for original sequence
+    :sets:  takes integer as declaration for amount of new
+            equally sized arrays
+    :return: array of lists containing parts of original array
+            with total length declared by sets parameter
+    '''
     size = int(len(seq) / sets)
     curr = 0
     out = [list(), ]
@@ -22,13 +29,15 @@ if __name__ == "__main__":
     Eg. python solution.py 5
     '''
     from sys import argv
+    from random import randint
 
     if len(argv) > 1:
         sets = int(argv[1])
     else:
-        sets = 5
+        sets = randint(1, 10)
 
     print(
+        'With sets equal too', sets, '\n',
         divide_sequence(
             seq=(1,2,3,4,5,6,7,8,9,10),
             sets=sets
