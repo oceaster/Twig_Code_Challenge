@@ -2,7 +2,7 @@
 
 def divide_sequence(seq, sets):
     '''
-    :array: takes list or set as declaration for original sequence    
+    :seq: takes list or set as declaration for original sequence    
     :sets:  takes integer as declaration for amount of new 
             equally sized arrays
     :return: array of lists containing parts of original array 
