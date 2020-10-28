@@ -31,7 +31,7 @@ if __name__ == "__main__":
     tests that the declared function 'divide_array' works as
     intended when file is run as main and given value from terminal argument.
     
-    Eg. python twig_code_challenge.py 5
+    Eg. python solution.py 5
     
     '''
     from sys import argv
