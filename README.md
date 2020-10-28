@@ -1,5 +1,5 @@
-# Twig_Code_Challenge
-Solution for twig code challenge
+# Twig Code Challenge
+My solution for the twig code challenge
 
 # How to execute
 
